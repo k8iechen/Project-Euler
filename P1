@@ -1,0 +1,8 @@
+x = input()
+c = []
+for i in range(334):
+	c.append(3*i)
+for i in range(200):
+	if 5*i not in c:
+		c.append(5*i) 
+print sum(c)
